@@ -3,7 +3,9 @@ import React, { useState } from "react";
 import "../App.scss";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import { useNavigate } from "react-router-dom"; //helps me move from output to input with a button
+// after having downloaded in the terminal using "npm i react-router-dom"
+//i import it in this file, it helps me move from output to input with a button
+import { useNavigate } from "react-router-dom";
 
 function Window({ position, size, frameColor, glassColor }) {
   const frameThickness = 0.6; // Thickness of the window frame
